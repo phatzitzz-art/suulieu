@@ -1,5 +1,4 @@
-[index.html](https://github.com/user-attachments/files/33470589/index.html)
-# suulieu<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="vi">
 <head>
   <meta charset="UTF-8" />
@@ -83,7 +82,7 @@
       <h1 class="text-2xl md:text-3xl font-black font-orbitron tracking-wider text-cyan-400 neon-text-cyan">
         CYBER PATH <span class="text-pink-500 neon-text-magenta">PRECISION</span>
       </h1>
-      <p class="text-xs text-gray-400 tracking-widest hidden sm:block">ĐƯỜNG CUA VUÔNG GÓC & DIỆT SẠCH Ô MÀU TRƯỚC KHI TRÔI QUA</p>
+      <p class="text-xs text-gray-400 tracking-widest hidden sm:block">CHUI QUA CỬA VÀO • TRÁNH VÀNH LASER • DIỆT SẠCH Ô MÀU</p>
     </div>
 
     <div class="flex items-center gap-6 font-orbitron pointer-events-auto">
@@ -116,55 +115,55 @@
     <!-- 1. Straight Width Slider -->
     <div class="mb-3.5">
       <div class="flex justify-between text-xs mb-1">
-        <span class="text-cyan-300 font-semibold">Độ rộng đường thẳng:</span>
-        <span id="straightWidthValue" class="text-yellow-400 font-mono">55 px</span>
+        <span class="text-cyan-300 font-semibold">Độ rộng lòng đường:</span>
+        <span id="straightWidthValue" class="text-yellow-400 font-mono">65 px</span>
       </div>
-      <input id="straightWidthSlider" type="range" min="20" max="120" value="55" class="w-full" />
+      <input id="straightWidthSlider" type="range" min="35" max="120" value="65" class="w-full" />
     </div>
 
-    <!-- 2. Curve Width Slider -->
-    <div class="mb-3.5">
-      <div class="flex justify-between text-xs mb-1">
-        <span class="text-cyan-300 font-semibold">Độ rộng đoạn gấp khúc/cua:</span>
-        <span id="curveWidthValue" class="text-yellow-400 font-mono">70 px</span>
-      </div>
-      <input id="curveWidthSlider" type="range" min="20" max="150" value="70" class="w-full" />
-    </div>
-
-    <!-- 3. Sharp Turns Frequency Slider -->
-    <div class="mb-3.5">
-      <div class="flex justify-between text-xs mb-1">
-        <span class="text-cyan-300 font-semibold">Tần suất góc gấp vuông (30-60°):</span>
-        <span id="sharpTurnFreqValue" class="text-yellow-400 font-mono">Nhiều (35%)</span>
-      </div>
-      <input id="sharpTurnFreqSlider" type="range" min="0" max="80" value="35" step="5" class="w-full" />
-    </div>
-
-    <!-- 4. Curvature Intensity Slider -->
+    <!-- 2. Curvature Intensity Slider -->
     <div class="mb-3.5">
       <div class="flex justify-between text-xs mb-1">
         <span class="text-cyan-300 font-semibold">Độ uốn lượn / Biên độ:</span>
-        <span id="curvatureValue" class="text-yellow-400 font-mono">Vừa (100)</span>
+        <span id="curvatureValue" class="text-yellow-400 font-mono">Cao (120)</span>
       </div>
-      <input id="curvatureSlider" type="range" min="0" max="180" value="100" step="10" class="w-full" />
+      <input id="curvatureSlider" type="range" min="0" max="180" value="120" step="10" class="w-full" />
     </div>
 
-    <!-- 5. Large Circle Radius Slider -->
+    <!-- 3. Large Circle Radius Slider -->
     <div class="mb-3.5">
       <div class="flex justify-between text-xs mb-1">
-        <span class="text-cyan-300 font-semibold">Bán kính hình tròn lớn:</span>
-        <span id="circleRadiusValue" class="text-yellow-400 font-mono">85 px</span>
+        <span class="text-cyan-300 font-semibold">Bán kính vòng laser:</span>
+        <span id="circleRadiusValue" class="text-yellow-400 font-mono">75 px</span>
       </div>
-      <input id="circleRadiusSlider" type="range" min="40" max="160" value="85" class="w-full" />
+      <input id="circleRadiusSlider" type="range" min="45" max="130" value="75" class="w-full" />
+    </div>
+
+    <!-- 4. Gate Angle Size Slider -->
+    <div class="mb-3.5">
+      <div class="flex justify-between text-xs mb-1">
+        <span class="text-cyan-300 font-semibold">Góc mở cửa vào (Gate):</span>
+        <span id="gateSizeValue" class="text-yellow-400 font-mono">70°</span>
+      </div>
+      <input id="gateSizeSlider" type="range" min="40" max="120" value="70" step="5" class="w-full" />
+    </div>
+
+    <!-- 5. Gate Rotation Speed Slider -->
+    <div class="mb-3.5">
+      <div class="flex justify-between text-xs mb-1">
+        <span class="text-cyan-300 font-semibold">Tốc độ xoay cửa vào:</span>
+        <span id="gateRotateValue" class="text-yellow-400 font-mono">Vừa (1.5)</span>
+      </div>
+      <input id="gateRotateSlider" type="range" min="0" max="5.0" value="1.5" step="0.5" class="w-full" />
     </div>
 
     <!-- 6. Target Radius Slider -->
     <div class="mb-3.5">
       <div class="flex justify-between text-xs mb-1">
         <span class="text-cyan-300 font-semibold">Kích thước ô màu nhỏ:</span>
-        <span id="targetRadiusValue" class="text-yellow-400 font-mono">16 px</span>
+        <span id="targetRadiusValue" class="text-yellow-400 font-mono">15 px</span>
       </div>
-      <input id="targetRadiusSlider" type="range" min="8" max="35" value="16" class="w-full" />
+      <input id="targetRadiusSlider" type="range" min="8" max="30" value="15" class="w-full" />
     </div>
 
     <!-- 7. Target Count Slider -->
@@ -180,9 +179,9 @@
     <div class="mb-3.5">
       <div class="flex justify-between text-xs mb-1">
         <span class="text-cyan-300 font-semibold">Tốc độ cuộn đường (Speed):</span>
-        <span id="speedValue" class="text-yellow-400 font-mono">3.0</span>
+        <span id="speedValue" class="text-yellow-400 font-mono">3.5</span>
       </div>
-      <input id="speedSlider" type="range" min="1.0" max="10.0" step="0.5" value="3.0" class="w-full" />
+      <input id="speedSlider" type="range" min="1.0" max="10.0" step="0.5" value="3.5" class="w-full" />
     </div>
 
     <div class="text-xs text-gray-400 italic mt-3 border-t border-gray-800 pt-2 text-center">
@@ -198,8 +197,8 @@
     <div id="startOverlay" class="absolute inset-0 bg-black/85 backdrop-blur-sm flex flex-col items-center justify-center p-6 text-center z-10">
       <h2 class="text-4xl md:text-5xl font-black font-orbitron text-cyan-400 neon-text-cyan mb-2">CYBER PATH</h2>
       <p class="text-gray-300 max-w-md mb-6 leading-relaxed text-sm">
-        Rèn luyện phản xạ với <span class="text-yellow-300 font-bold">đường gấp khúc vuông góc 30-60°</span>.<br/>
-        Nhấp diệt hết các ô màu nhỏ <span class="text-pink-400 font-bold">trước khi hình tròn trôi qua khỏi màn hình</span>!
+        ⚠️ <span class="text-red-400 font-bold">CẢNH BÁO NGUY HIỂM:</span> Vành tròn có <span class="text-pink-500 font-bold">LASER ĐIỆN QUANG</span>!<br/>
+        Căn góc chui qua <span class="text-yellow-300 font-bold">CỬA VÀO</span>. Chạm phải vành laser sẽ <span class="text-red-500 font-bold">THUA NGAY</span>!
       </p>
 
       <button id="startBtn" class="px-8 py-3 bg-cyan-400 text-black font-orbitron font-bold text-lg rounded-full shadow-[0_0_20px_#00f0ff] hover:scale-105 hover:bg-white transition-all cursor-pointer">
@@ -209,7 +208,7 @@
 
     <div id="gameOverOverlay" class="hidden absolute inset-0 bg-black/90 backdrop-blur-md flex flex-col items-center justify-center p-6 text-center z-10">
       <h2 class="text-4xl md:text-5xl font-black font-orbitron text-pink-500 neon-text-magenta mb-2">GAME OVER</h2>
-      <p id="deathReason" class="text-gray-400 mb-4">Bạn đã va vào vách tường con đường!</p>
+      <p id="deathReason" class="text-red-400 font-semibold mb-4">Bạn đã va phải vành laser của Vòng tròn thử thách!</p>
 
       <div class="bg-gray-900/80 border border-gray-800 rounded-xl p-4 mb-6 w-64 text-center font-orbitron">
         <div class="text-xs text-gray-500 mb-1">ĐIỂM ĐẠT ĐƯỢC</div>
@@ -225,11 +224,11 @@
   </div>
 
   <footer class="mt-4 text-xs text-gray-500 text-center font-orbitron">
-    Cập nhật: Góc cua vuông 30-60° • Giữ nguyên đường bo rộng sau khi diệt hết ô màu • Thua ngay nếu bỏ sót task!
+    Luồn chuột qua CỬA VÀO • Diệt hết ô màu để tắt Vành Laser • Tránh đụng tường &amp; đụng Laser!
   </footer>
 
   <script>
-    // Sound Engine
+    // Sound Engine using Web Audio API
     class SoundEngine {
       constructor() {
         this.ctx = null;
@@ -254,14 +253,14 @@
           const osc = this.ctx.createOscillator();
           const gain = this.ctx.createGain();
           osc.type = 'sine';
-          osc.frequency.setValueAtTime(587.33, this.ctx.currentTime);
-          osc.frequency.exponentialRampToValueAtTime(880, this.ctx.currentTime + 0.1);
-          gain.gain.setValueAtTime(0.2, this.ctx.currentTime);
-          gain.gain.exponentialRampToValueAtTime(0.01, this.ctx.currentTime + 0.1);
+          osc.frequency.setValueAtTime(650, this.ctx.currentTime);
+          osc.frequency.exponentialRampToValueAtTime(1050, this.ctx.currentTime + 0.08);
+          gain.gain.setValueAtTime(0.25, this.ctx.currentTime);
+          gain.gain.exponentialRampToValueAtTime(0.01, this.ctx.currentTime + 0.08);
           osc.connect(gain);
           gain.connect(this.ctx.destination);
           osc.start();
-          osc.stop(this.ctx.currentTime + 0.1);
+          osc.stop(this.ctx.currentTime + 0.08);
         } catch (e) {}
       }
       playClearObstacle() {
@@ -270,14 +269,30 @@
           const osc = this.ctx.createOscillator();
           const gain = this.ctx.createGain();
           osc.type = 'triangle';
-          osc.frequency.setValueAtTime(261.63, this.ctx.currentTime);
-          osc.frequency.exponentialRampToValueAtTime(523.25, this.ctx.currentTime + 0.25);
-          gain.gain.setValueAtTime(0.3, this.ctx.currentTime);
+          osc.frequency.setValueAtTime(350, this.ctx.currentTime);
+          osc.frequency.exponentialRampToValueAtTime(800, this.ctx.currentTime + 0.25);
+          gain.gain.setValueAtTime(0.35, this.ctx.currentTime);
           gain.gain.exponentialRampToValueAtTime(0.01, this.ctx.currentTime + 0.25);
           osc.connect(gain);
           gain.connect(this.ctx.destination);
           osc.start();
           osc.stop(this.ctx.currentTime + 0.25);
+        } catch (e) {}
+      }
+      playLaserZap() {
+        if (!this.enabled || !this.ctx) return;
+        try {
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'sawtooth';
+          osc.frequency.setValueAtTime(450, this.ctx.currentTime);
+          osc.frequency.linearRampToValueAtTime(100, this.ctx.currentTime + 0.15);
+          gain.gain.setValueAtTime(0.3, this.ctx.currentTime);
+          gain.gain.exponentialRampToValueAtTime(0.01, this.ctx.currentTime + 0.15);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start();
+          osc.stop(this.ctx.currentTime + 0.15);
         } catch (e) {}
       }
       playGameOver() {
@@ -286,9 +301,9 @@
           const osc = this.ctx.createOscillator();
           const gain = this.ctx.createGain();
           osc.type = 'sawtooth';
-          osc.frequency.setValueAtTime(180, this.ctx.currentTime);
-          osc.frequency.exponentialRampToValueAtTime(40, this.ctx.currentTime + 0.4);
-          gain.gain.setValueAtTime(0.4, this.ctx.currentTime);
+          osc.frequency.setValueAtTime(220, this.ctx.currentTime);
+          osc.frequency.exponentialRampToValueAtTime(30, this.ctx.currentTime + 0.4);
+          gain.gain.setValueAtTime(0.35, this.ctx.currentTime);
           gain.gain.exponentialRampToValueAtTime(0.01, this.ctx.currentTime + 0.4);
           osc.connect(gain);
           gain.connect(this.ctx.destination);
@@ -322,17 +337,17 @@
     const straightWidthSlider = document.getElementById('straightWidthSlider');
     const straightWidthValue = document.getElementById('straightWidthValue');
 
-    const curveWidthSlider = document.getElementById('curveWidthSlider');
-    const curveWidthValue = document.getElementById('curveWidthValue');
-
-    const sharpTurnFreqSlider = document.getElementById('sharpTurnFreqSlider');
-    const sharpTurnFreqValue = document.getElementById('sharpTurnFreqValue');
-
     const curvatureSlider = document.getElementById('curvatureSlider');
     const curvatureValue = document.getElementById('curvatureValue');
 
     const circleRadiusSlider = document.getElementById('circleRadiusSlider');
     const circleRadiusValue = document.getElementById('circleRadiusValue');
+
+    const gateSizeSlider = document.getElementById('gateSizeSlider');
+    const gateSizeValue = document.getElementById('gateSizeValue');
+
+    const gateRotateSlider = document.getElementById('gateRotateSlider');
+    const gateRotateValue = document.getElementById('gateRotateValue');
 
     const targetRadiusSlider = document.getElementById('targetRadiusSlider');
     const targetRadiusValue = document.getElementById('targetRadiusValue');
@@ -346,10 +361,10 @@
     // Config Object
     let config = {
       straightWidth: parseInt(straightWidthSlider.value, 10),
-      curveWidth: parseInt(curveWidthSlider.value, 10),
-      sharpTurnFreq: parseInt(sharpTurnFreqSlider.value, 10),
       curvature: parseInt(curvatureSlider.value, 10),
       circleRadius: parseInt(circleRadiusSlider.value, 10),
+      gateSizeDeg: parseInt(gateSizeSlider.value, 10),
+      gateRotateSpeed: parseFloat(gateRotateSlider.value),
       targetRadius: parseInt(targetRadiusSlider.value, 10),
       targetCount: parseInt(targetCountSlider.value, 10),
       scrollSpeed: parseFloat(speedSlider.value)
@@ -366,6 +381,7 @@
     // State Variables
     let isPlaying = false;
     let gracePeriodTimer = 0;
+    let hitGraceTimer = 0;
     let score = 0;
     let highScore = parseInt(localStorage.getItem('cyberPathHighScore') || '0', 10);
     highScoreDisplay.textContent = highScore;
@@ -378,10 +394,12 @@
     let nextObstacleDistance = 0;
     let totalScrolledDistance = 0;
 
-    // Generators for Sharp Turns
-    let currentPathY = 260;
-    let targetPathY = 260;
-    let sharpTurnCountdown = 0;
+    // Random Seeds for Path Generation
+    let seed1 = Math.random() * 1000;
+    let seed2 = Math.random() * 1000;
+    let seed3 = Math.random() * 1000;
+    let freq1 = 0.0035 + Math.random() * 0.004;
+    let freq2 = 0.009 + Math.random() * 0.005;
 
     // Slider Listeners
     straightWidthSlider.addEventListener('input', (e) => {
@@ -389,28 +407,24 @@
       straightWidthValue.textContent = `${config.straightWidth} px`;
     });
 
-    curveWidthSlider.addEventListener('input', (e) => {
-      config.curveWidth = parseInt(e.target.value, 10);
-      curveWidthValue.textContent = `${config.curveWidth} px`;
-    });
-
-    sharpTurnFreqSlider.addEventListener('input', (e) => {
-      config.sharpTurnFreq = parseInt(e.target.value, 10);
-      sharpTurnFreqValue.textContent = `${config.sharpTurnFreq > 50 ? 'Rất Cao' : config.sharpTurnFreq > 25 ? 'Nhiều' : 'Ít'} (${config.sharpTurnFreq}%)`;
-    });
-
     curvatureSlider.addEventListener('input', (e) => {
       config.curvature = parseInt(e.target.value, 10);
-      let label = 'Vừa';
-      if (config.curvature === 0) label = 'Thẳng';
-      else if (config.curvature < 50) label = 'Nhẹ';
-      else if (config.curvature > 120) label = 'Gấp Khúc Cao';
-      curvatureValue.textContent = `${label} (${config.curvature})`;
+      curvatureValue.textContent = `${config.curvature > 120 ? 'Cao' : config.curvature > 50 ? 'Vừa' : 'Nhẹ'} (${config.curvature})`;
     });
 
     circleRadiusSlider.addEventListener('input', (e) => {
       config.circleRadius = parseInt(e.target.value, 10);
       circleRadiusValue.textContent = `${config.circleRadius} px`;
+    });
+
+    gateSizeSlider.addEventListener('input', (e) => {
+      config.gateSizeDeg = parseInt(e.target.value, 10);
+      gateSizeValue.textContent = `${config.gateSizeDeg}°`;
+    });
+
+    gateRotateSlider.addEventListener('input', (e) => {
+      config.gateRotateSpeed = parseFloat(e.target.value);
+      gateRotateValue.textContent = `${config.gateRotateSpeed.toFixed(1)}`;
     });
 
     targetRadiusSlider.addEventListener('input', (e) => {
@@ -455,13 +469,16 @@
       const clickX = e.clientX - rect.left;
       const clickY = e.clientY - rect.top;
 
+      let hitAny = false;
+
       obstacles.forEach(obs => {
         if (!obs.cleared) {
           obs.targets.forEach(target => {
             if (!target.hit) {
               const dist = Math.hypot(clickX - target.x, clickY - target.y);
-              if (dist <= target.r + 12) {
+              if (dist <= target.r + 16) {
                 target.hit = true;
+                hitAny = true;
                 sound.playTargetHit();
                 createExplosion(target.x, target.y, target.color, 14);
               }
@@ -471,69 +488,56 @@
           const allCleared = obs.targets.every(t => t.hit);
           if (allCleared) {
             sound.playClearObstacle();
-            createExplosion(obs.x, obs.y, '#00f0ff', 35);
-            score += 150;
+            createExplosion(obs.x, obs.y, '#00f0ff', 40);
+            createExplosion(obs.x, obs.y, '#ff007f', 25);
+            score += 200;
             scoreDisplay.textContent = Math.floor(score);
             obs.cleared = true;
           }
         }
       });
+
+      if (hitAny) {
+        hitGraceTimer = 10;
+      }
     });
 
-    // Procedural Curve + Sharp Angle Generator
+    // Procedural Path Generator
     function calculatePointProps(distFromStart) {
       const centerY = canvas.height > 0 ? canvas.height / 2 : 260;
 
       if (distFromStart < 350 || config.curvature === 0) {
-        currentPathY = centerY;
-        targetPathY = centerY;
-        return { y: centerY, radius: config.straightWidth, isSharp: false };
+        return { y: centerY, baseRadius: config.straightWidth };
       }
 
-      // Smooth Sine Wave
-      const wavePrimary = Math.sin((distFromStart - 350) * 0.007);
-      const waveSecondary = Math.sin((distFromStart - 350) * 0.003) * 0.35;
-      let smoothY = centerY + (wavePrimary + waveSecondary) * config.curvature;
+      const wave1 = Math.sin((distFromStart - 350) * freq1 + seed1);
+      const wave2 = Math.sin((distFromStart - 350) * freq2 + seed2) * 0.55;
+      const wave3 = Math.cos((distFromStart - 350) * 0.002 + seed3) * 0.35;
 
-      // Sharp Turn Step Logic (30-60 degree abrupt bends)
-      let isSharp = false;
-      if (sharpTurnCountdown <= 0) {
-        if (Math.random() < (config.sharpTurnFreq / 100) * 0.08) {
-          // Sharp angle turn 30 - 60 deg offset
-          const angleDeg = (Math.random() * 30 + 30) * (Math.random() < 0.5 ? 1 : -1);
-          const offset = Math.tan((angleDeg * Math.PI) / 180) * 120;
-          targetPathY = Math.max(80, Math.min(canvas.height - 80, smoothY + offset));
-          sharpTurnCountdown = Math.floor(Math.random() * 25 + 20); // Hold angle step
-        } else {
-          targetPathY = smoothY;
-        }
-      } else {
-        sharpTurnCountdown--;
-        isSharp = true;
-      }
+      const totalOffset = (wave1 + wave2 + wave3) * (config.curvature * 0.95);
 
-      // Fast linear interpolation for sharp step turns
-      currentPathY += (targetPathY - currentPathY) * 0.35;
+      const padding = config.straightWidth + 50;
+      const calculatedY = Math.max(padding, Math.min(canvas.height - padding, centerY + totalOffset));
 
-      const isTurn = isSharp || Math.abs(currentPathY - centerY) > 30;
-      const radius = isTurn ? config.curveWidth : config.straightWidth;
-
-      return { y: currentPathY, radius: radius, isSharp: isSharp };
+      return { y: calculatedY, baseRadius: config.straightWidth };
     }
 
     function getRandomObstacleInterval() {
-      return Math.floor(Math.random() * 350) + 400;
+      return Math.floor(Math.random() * 260) + 400;
     }
 
     function initPath() {
       pathPoints = [];
       totalScrolledDistance = 0;
-      nextObstacleDistance = 650;
-      currentPathY = canvas.height / 2;
-      targetPathY = canvas.height / 2;
-      sharpTurnCountdown = 0;
+      nextObstacleDistance = 600;
 
-      const step = 10;
+      seed1 = Math.random() * 1000;
+      seed2 = Math.random() * 1000;
+      seed3 = Math.random() * 1000;
+      freq1 = 0.0035 + Math.random() * 0.004;
+      freq2 = 0.009 + Math.random() * 0.005;
+
+      const step = 8;
       const totalPoints = Math.ceil((canvas.width + 500) / step);
 
       for (let i = 0; i < totalPoints; i++) {
@@ -543,35 +547,42 @@
           x: x,
           dist: x,
           y: props.y,
-          baseRadius: props.radius,
-          currentRadius: props.radius,
-          isSharp: props.isSharp
+          baseRadius: props.baseRadius,
+          currentRadius: props.baseRadius
         });
       }
 
       mousePos = { x: 180, y: canvas.height / 2 };
     }
 
-    // Spawn Obstacle
+    // Spawn Obstacle with Gate Entrance Properties
     function spawnObstacle(xPos, yPos) {
-      const targetColors = ['#ff007f', '#ffe600', '#00f0ff', '#39ff14', '#ff0055', '#a855f7', '#ff9900', '#00ffaa'];
+      const palette = ['#ff007f', '#ffe600', '#00f0ff', '#39ff14', '#ff0055', '#a855f7', '#ff9900', '#00ffaa'];
       const targets = [];
       const numTargets = config.targetCount;
+
+      const safeRadius = Math.min(config.circleRadius, (canvas.height / 2) - 40);
+      const targetSpreadRadius = Math.max(0, safeRadius * 0.52);
+
+      // Gate entrance angles
+      const gateRad = (config.gateSizeDeg * Math.PI) / 180;
+      const initialAngle = Math.random() * Math.PI * 2;
+      const rotateDir = Math.random() < 0.5 ? 1 : -1;
 
       if (numTargets === 1) {
         targets.push({
           x: xPos, y: yPos, offsetX: 0, offsetY: 0,
-          r: config.targetRadius, color: targetColors[0], hit: false
+          r: config.targetRadius, color: palette[Math.floor(Math.random() * palette.length)], hit: false
         });
       } else {
-        const distance = config.circleRadius * 0.48;
+        const randomAngleOffset = Math.random() * Math.PI * 2;
         for (let i = 0; i < numTargets; i++) {
-          const angle = (Math.PI * 2 / numTargets) * i;
-          const offX = Math.cos(angle) * distance;
-          const offY = Math.sin(angle) * distance;
+          const angle = (Math.PI * 2 / numTargets) * i + randomAngleOffset;
+          const offX = Math.cos(angle) * targetSpreadRadius;
+          const offY = Math.sin(angle) * targetSpreadRadius;
           targets.push({
             x: xPos + offX, y: yPos + offY, offsetX: offX, offsetY: offY,
-            r: config.targetRadius, color: targetColors[i % targetColors.length], hit: false
+            r: config.targetRadius, color: palette[i % palette.length], hit: false
           });
         }
       }
@@ -579,7 +590,10 @@
       obstacles.push({
         x: xPos,
         y: yPos,
-        radius: config.circleRadius,
+        radius: safeRadius,
+        gateAngle: initialAngle,
+        gateSize: gateRad,
+        rotateSpeed: (config.gateRotateSpeed * 0.012) * rotateDir,
         targets: targets,
         cleared: false
       });
@@ -589,12 +603,12 @@
     function createExplosion(x, y, color, count) {
       for (let i = 0; i < count; i++) {
         const angle = Math.random() * Math.PI * 2;
-        const speed = Math.random() * 5 + 2;
+        const speed = Math.random() * 4.5 + 1.5;
         particles.push({
           x: x, y: y,
           vx: Math.cos(angle) * speed,
           vy: Math.sin(angle) * speed,
-          radius: Math.random() * 4 + 2,
+          radius: Math.random() * 3 + 2,
           color: color,
           alpha: 1,
           decay: Math.random() * 0.03 + 0.02
@@ -616,7 +630,8 @@
 
       obstacles = [];
       particles = [];
-      gracePeriodTimer = 90; // ~1.5s invulnerability
+      gracePeriodTimer = 90;
+      hitGraceTimer = 0;
       score = 0;
       scoreDisplay.textContent = '0';
 
@@ -647,6 +662,12 @@
       gameOverOverlay.classList.remove('hidden');
     }
 
+    // Helper: Normalize Angle to [0, 2PI]
+    function normalizeAngle(a) {
+      a = a % (Math.PI * 2);
+      return a < 0 ? a + Math.PI * 2 : a;
+    }
+
     // Main Game Loop
     function gameLoop() {
       if (!isPlaying) return;
@@ -655,8 +676,9 @@
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
       if (gracePeriodTimer > 0) gracePeriodTimer--;
+      if (hitGraceTimer > 0) hitGraceTimer--;
 
-      // Continuous Map Movement
+      // Map Movement
       const moveDist = config.scrollSpeed;
       totalScrolledDistance += moveDist;
       score += 0.2;
@@ -668,31 +690,26 @@
 
       for (let obs of obstacles) {
         obs.x -= moveDist;
+        obs.gateAngle = normalizeAngle(obs.gateAngle + obs.rotateSpeed);
         obs.targets.forEach(t => t.x = obs.x + t.offsetX);
       }
 
-      // Check Rule 3: Fail if an uncleared obstacle drifts past screen left or passes mouse without clearing!
+      // Lose Condition 1: Missed uncleared obstacle passing screen left
       for (let obs of obstacles) {
         if (!obs.cleared) {
-          // If uncleared obstacle floats off left boundary
-          if (obs.x + obs.radius < 0) {
+          if (obs.x + obs.radius < -20) {
             gameOver('Thua do bỏ sót hình tròn chưa diệt hết ô màu!');
-            return;
-          }
-          // If uncleared obstacle passed player mouse position
-          if (obs.x + obs.radius * 0.7 < mousePos.x && gracePeriodTimer <= 0) {
-            gameOver('Thua do để hình tròn trôi qua mà chưa diệt!');
             return;
           }
         }
       }
 
-      // Spawn new path points & obstacles continuously
+      // Spawn Path Points & Obstacles
       while (pathPoints.length > 0 && pathPoints[0].x < -100) {
         pathPoints.shift();
         const lastPoint = pathPoints[pathPoints.length - 1];
-        const newX = lastPoint ? lastPoint.x + 10 : 0;
-        const newDist = lastPoint ? lastPoint.dist + 10 : 0;
+        const newX = lastPoint ? lastPoint.x + 8 : 0;
+        const newDist = lastPoint ? lastPoint.dist + 8 : 0;
 
         const props = calculatePointProps(newDist);
 
@@ -700,9 +717,8 @@
           x: newX,
           dist: newDist,
           y: props.y,
-          baseRadius: props.radius,
-          currentRadius: props.radius,
-          isSharp: props.isSharp
+          baseRadius: props.baseRadius,
+          currentRadius: props.baseRadius
         });
 
         if (newDist >= nextObstacleDistance) {
@@ -711,32 +727,36 @@
         }
       }
 
-      // Cleanup off-screen obstacles after they completely exit screen left
+      // Cleanup Old Obstacles
       for (let i = obstacles.length - 1; i >= 0; i--) {
         if (obstacles[i].x < -300) {
           obstacles.splice(i, 1);
         }
       }
 
-      // Check Rule 2: Maintain expanded path contour until the entire obstacle exits screen left!
+      // Dynamic Path Flare Expansion around Obstacles
       for (let pt of pathPoints) {
         let maxRadius = pt.baseRadius;
         for (let obs of obstacles) {
-          // Maintain contour whether obstacle is cleared or uncleared as long as it's active
           const dist = Math.abs(pt.x - obs.x);
-          if (dist < obs.radius + 65) {
-            const flare = Math.cos((dist / (obs.radius + 65)) * (Math.PI / 2)) * (obs.radius + 18);
-            maxRadius = Math.max(maxRadius, pt.baseRadius + flare);
+          const requiredBoundary = obs.radius + config.targetRadius + 28;
+          const flareRange = obs.radius + 95;
+
+          if (dist < flareRange) {
+            const factor = Math.cos((dist / flareRange) * (Math.PI / 2));
+            const expandedRadius = Math.max(pt.baseRadius, requiredBoundary);
+            const currentFlare = pt.baseRadius + (expandedRadius - pt.baseRadius) * factor;
+            maxRadius = Math.max(maxRadius, currentFlare);
           }
         }
         pt.currentRadius = maxRadius;
       }
 
-      // Render Path Boundaries
+      // Render Path Outer Contour
       if (pathPoints.length > 1) {
         ctx.beginPath();
 
-        // Upper Boundary Spline
+        // Top Curve
         ctx.moveTo(pathPoints[0].x, pathPoints[0].y - pathPoints[0].currentRadius);
         for (let i = 0; i < pathPoints.length - 1; i++) {
           const xc = (pathPoints[i].x + pathPoints[i + 1].x) / 2;
@@ -744,7 +764,7 @@
           ctx.quadraticCurveTo(pathPoints[i].x, pathPoints[i].y - pathPoints[i].currentRadius, xc, yc);
         }
 
-        // Lower Boundary Spline
+        // Bottom Curve
         ctx.lineTo(pathPoints[pathPoints.length - 1].x, pathPoints[pathPoints.length - 1].y + pathPoints[pathPoints.length - 1].currentRadius);
         for (let i = pathPoints.length - 1; i > 0; i--) {
           const xc = (pathPoints[i].x + pathPoints[i - 1].x) / 2;
@@ -753,41 +773,79 @@
         }
 
         ctx.closePath();
-        ctx.fillStyle = 'rgba(10, 25, 45, 0.85)';
+        ctx.fillStyle = 'rgba(10, 25, 45, 0.88)';
         ctx.fill();
         ctx.lineWidth = 3.5;
         ctx.strokeStyle = '#00f0ff';
-        ctx.shadowBlur = 15;
+        ctx.shadowBlur = 12;
         ctx.shadowColor = '#00f0ff';
         ctx.stroke();
         ctx.shadowBlur = 0;
       }
 
-      // Render Moving Obstacles & Inner Targets
+      // Render Obstacles with Gate Entrance & Laser Effect
       for (let obs of obstacles) {
-        // Draw Outer Circle Ring
-        ctx.beginPath();
-        ctx.arc(obs.x, obs.y, obs.radius, 0, Math.PI * 2);
-        ctx.fillStyle = obs.cleared ? 'rgba(0, 240, 255, 0.08)' : 'rgba(255, 0, 127, 0.15)';
-        ctx.fill();
-        ctx.lineWidth = 3;
-        ctx.strokeStyle = obs.cleared ? '#00f0ff' : '#ff007f';
-        ctx.shadowBlur = 15;
-        ctx.shadowColor = obs.cleared ? '#00f0ff' : '#ff007f';
-        ctx.stroke();
-        ctx.shadowBlur = 0;
+        ctx.save();
+        ctx.translate(obs.x, obs.y);
 
-        // Draw Inner Target Dots
+        if (!obs.cleared) {
+          // Render Laser Ring Arc (Excluding Gate Entrance)
+          const startArc = obs.gateAngle + obs.gateSize / 2;
+          const endArc = obs.gateAngle + Math.PI * 2 - obs.gateSize / 2;
+
+          // Outer Laser Glow
+          ctx.beginPath();
+          ctx.arc(0, 0, obs.radius, startArc, endArc);
+          ctx.lineWidth = 5;
+          ctx.strokeStyle = '#ff0055';
+          ctx.shadowBlur = 18;
+          ctx.shadowColor = '#ff0055';
+          ctx.stroke();
+
+          // Inner Core Bright Line
+          ctx.beginPath();
+          ctx.arc(0, 0, obs.radius, startArc, endArc);
+          ctx.lineWidth = 2;
+          ctx.strokeStyle = '#ffffff';
+          ctx.stroke();
+          ctx.shadowBlur = 0;
+
+          // Gate Edge Indicators (Glowing Portal Posts)
+          const gateStartPos = { x: Math.cos(startArc) * obs.radius, y: Math.sin(startArc) * obs.radius };
+          const gateEndPos = { x: Math.cos(endArc) * obs.radius, y: Math.sin(endArc) * obs.radius };
+
+          ctx.beginPath();
+          ctx.arc(gateStartPos.x, gateStartPos.y, 5, 0, Math.PI * 2);
+          ctx.arc(gateEndPos.x, gateEndPos.y, 5, 0, Math.PI * 2);
+          ctx.fillStyle = '#ffe600';
+          ctx.shadowBlur = 12;
+          ctx.shadowColor = '#ffe600';
+          ctx.fill();
+          ctx.shadowBlur = 0;
+        } else {
+          // Cleared State - Soft Disarmed Shield Ring
+          ctx.beginPath();
+          ctx.arc(0, 0, obs.radius, 0, Math.PI * 2);
+          ctx.lineWidth = 2;
+          ctx.strokeStyle = 'rgba(0, 240, 255, 0.4)';
+          ctx.fillStyle = 'rgba(0, 240, 255, 0.05)';
+          ctx.fill();
+          ctx.stroke();
+        }
+
+        ctx.restore();
+
+        // Inner Target Dots
         if (!obs.cleared) {
           obs.targets.forEach(target => {
             if (!target.hit) {
               ctx.beginPath();
               ctx.arc(target.x, target.y, target.r, 0, Math.PI * 2);
               ctx.fillStyle = target.color;
-              ctx.shadowBlur = 12;
+              ctx.shadowBlur = 10;
               ctx.shadowColor = target.color;
               ctx.fill();
-              ctx.lineWidth = 2;
+              ctx.lineWidth = 1.5;
               ctx.strokeStyle = '#ffffff';
               ctx.stroke();
               ctx.shadowBlur = 0;
@@ -796,7 +854,7 @@
         }
       }
 
-      // Render Particle Explosions
+      // Particle FX Update & Draw
       for (let i = particles.length - 1; i >= 0; i--) {
         const p = particles[i];
         p.x += p.vx;
@@ -817,9 +875,9 @@
         ctx.restore();
       }
 
-      // Player Cursor Glow
+      // Player Cursor
       ctx.beginPath();
-      ctx.arc(mousePos.x, mousePos.y, 7, 0, Math.PI * 2);
+      ctx.arc(mousePos.x, mousePos.y, 6, 0, Math.PI * 2);
       ctx.fillStyle = gracePeriodTimer > 0 ? '#39ff14' : '#ffffff';
       ctx.shadowBlur = 15;
       ctx.shadowColor = gracePeriodTimer > 0 ? '#39ff14' : '#00f0ff';
@@ -828,14 +886,47 @@
 
       if (gracePeriodTimer > 0) {
         ctx.beginPath();
-        ctx.arc(mousePos.x, mousePos.y, 16, 0, Math.PI * 2);
+        ctx.arc(mousePos.x, mousePos.y, 15, 0, Math.PI * 2);
         ctx.strokeStyle = 'rgba(57, 255, 20, 0.6)';
         ctx.lineWidth = 2;
         ctx.stroke();
       }
 
-      // Track Collision Detection
-      if (gracePeriodTimer <= 0) {
+      // Collision Detection: Laser Barrier & Outer Track Wall
+      if (gracePeriodTimer <= 0 && hitGraceTimer <= 0) {
+        // 1. Check Collision with Laser Ring Barrier
+        for (let obs of obstacles) {
+          if (!obs.cleared) {
+            const distToObs = Math.hypot(mousePos.x - obs.x, mousePos.y - obs.y);
+            const wallThicknessThreshold = 6;
+
+            // If mouse touches the radius boundary of the laser ring
+            if (Math.abs(distToObs - obs.radius) <= wallThicknessThreshold) {
+              const mouseAngle = normalizeAngle(Math.atan2(mousePos.y - obs.y, mousePos.x - obs.x));
+
+              const gateStart = normalizeAngle(obs.gateAngle - obs.gateSize / 2);
+              const gateEnd = normalizeAngle(obs.gateAngle + obs.gateSize / 2);
+
+              let inGate = false;
+              if (gateStart < gateEnd) {
+                inGate = mouseAngle >= gateStart && mouseAngle <= gateEnd;
+              } else {
+                // Gate wraps around 0 / 2PI angle boundary
+                inGate = mouseAngle >= gateStart || mouseAngle <= gateEnd;
+              }
+
+              // Hit the Laser Barrier Wall!
+              if (!inGate) {
+                sound.playLaserZap();
+                createExplosion(mousePos.x, mousePos.y, '#ff0055', 20);
+                gameOver('Bạn đã va phải vành laser bảo vệ của Vòng tròn thử thách!');
+                return;
+              }
+            }
+          }
+        }
+
+        // 2. Check Collision with Outer Track Wall
         let closestPt = null;
         let minDistance = Infinity;
 
@@ -851,12 +942,13 @@
           const verticalDist = Math.abs(mousePos.y - closestPt.y);
           if (verticalDist > closestPt.currentRadius - 2) {
             gameOver('Bạn đã va vào vách tường con đường!');
+            return;
           }
         }
       }
     }
 
-    // Attach Handlers
+    // Attach Event Handlers
     startBtn.addEventListener('click', startGame);
     restartBtn.addEventListener('click', startGame);
 
